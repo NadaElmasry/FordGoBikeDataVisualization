@@ -1,5 +1,4 @@
 # Ford GoBike Data Analysis and Visualization
-## by Nada Ahmed
 
 
 ## Dataset
@@ -7,13 +6,21 @@
 > The dataset includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area in february 2019.The dataset consists of 183412 rows and 16 features.
   There are 7 object type features (start_time,end_time,start_station_name,end_station_name,user_type,member_gender,bike_share_for_all_trip), and 9 numeric features(duration_sec,start_station_id,start_station_latitude,start_station_longitude,end_station_id,end_station_latitude,end_station_longitude,bike_id,member_birth_year).
   data wrangling and cleaning steps:
+  
 	- Make a copy of the dataset.
+	
 	- Remove null values from the dataset.
+	
 	- change stations id to integers.
+	
 	- separte start time into start date, start date and start time.
+	
 	- separte end time into end date and end time.
+	
 	- make new columns for trip duration in minutes and hours.
+	
 	- make a new column for user age.
+	
 
 ## Summary of Findings
 
